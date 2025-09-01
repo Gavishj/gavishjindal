@@ -48,3 +48,16 @@ async function loadSinglePost(){
 }
 loadPosts();
 loadSinglePost();
+// --- About page: days old counter ---
+(function () {
+  const el = document.getElementById('daysOld');
+  if (!el) return;
+
+  const dob = new Date('2006-08-10T00:00:00Z'); // your birthday
+  const msPerDay = 24 * 60 * 60 * 1000;
+  const today = new Date();
+  const days = Math.floor((today - dob) / msPerDay);
+
+  el.textContent = days.toLocaleString();
+})();
+

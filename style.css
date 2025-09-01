@@ -320,3 +320,67 @@ a:hover {
 
 /* ensure footer never overlays and always starts on a new line */
 .site-footer { position: relative; clear: both; z-index: 0; }
+.about-page, .manual-page {
+  max-width: 750px;
+  margin: 4rem auto;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.about-page h1, .manual-page h1 {
+  margin-bottom: 1.5rem;
+}
+
+.about-page h2, .manual-page h2 {
+  margin-top: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  color: var(--muted-text);
+}
+
+.more-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+.subpage {
+  max-width: 750px;
+  margin: 4rem auto;
+  line-height: 1.7;
+}
+.subpage h1 { margin-bottom: 1rem; }
+.subpage h2 {
+  margin-top: 2.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.subpage ul { margin: 1rem 0; padding-left: 1.5rem; }
+.subpage li { margin-bottom: 0.6rem; }
+/* About page avatar */
+.about-avatar {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1.25rem;
+}
+.about-avatar img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3a3a3f;
+}
+.subpage { max-width: 750px; margin: 4rem auto; line-height: 1.7; }
+.subpage h1 { margin-bottom: 1rem; }
+.subpage h2 { margin-top: 2.2rem; font-size: .95rem; text-transform: uppercase; color: var(--muted); }
+.subpage ul { margin: 1rem 0; padding-left: 1.5rem; }
+.subpage li { margin-bottom: .6rem; }
+.hero-link { color: inherit; text-decoration: none; }
+.hero-link:hover, .hero-link:focus-visible { text-decoration: underline; outline: none; }
+.subpage { max-width: 750px; margin: 4rem auto; line-height: 1.7; }
+.subpage h1 { margin-bottom: 1rem; }
+.subpage h2 { margin-top: 2.2rem; font-size: .95rem; text-transform: uppercase; color: var(--muted); }
+.subpage ul { margin: 1rem 0; padding-left: 1.5rem; }
+.subpage li { margin-bottom: .6rem; }
